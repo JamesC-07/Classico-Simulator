@@ -1,16 +1,74 @@
 h1 {
     text-align: center;
-    color: rgb(143, 70, 31);
+    color: #8f461f;
     font-size: 4em;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .behind {
     background-color: bisque;
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
+    max-width: 800px;
+    padding: 20px;
 }
 .subtitle {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_1280.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/28/04/35/classroom-1699745_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.menu  {
+    margin-bottom: 30px;
+}
+h2  {
+    font-size: 1.25em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+h3  {
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+#underh3  {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+ul  {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.choice  {
+    display: list-item;
+    text-align: center;
+    text-decoration: none;
+    color: #8f461f;
+    font-weight: bold;
+    display: inline-block;
+}
+#explaination, #inspiration, #school, #download, #gallery  {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.desc  {
+    margin-top: 5px;
+}
+#downloadlink  {
+    font-size: 2em;
+    text-decoration: none;
+    color: #8f461f;
+    background-color: rgb(201, 168, 135);
+}
+.minfo  {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
